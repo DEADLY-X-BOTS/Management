@@ -11,11 +11,11 @@ from MukeshRobot.events import register
 
 edit_time = 5
 f""" ======================={BOT_NAME}====================== """
-file1 = "https://telegra.ph/file/9a85d0a873e2dd80d278d.jpg"
+file1 = "https://graph.org/file/5952a410e971e9ba94d55.jpg"
 file2 = "https://telegra.ph/file/9e7815284031452afa9e5.jpg"
 file3 = "https://telegra.ph/file/dcc5e003287f69acea368.jpg"
-file4 = "https://telegra.ph/file/ed1ce7fee94f46b0f671e.jpg"
-file5 = "https://telegra.ph/file/701028ce085ecfa961a36.jpg"
+file4 = "https://graph.org/file/916e7ea934c3acf9b5066.jpg"
+file5 = "https://graph.org/file/52c4b0864d7f4f70e53ea.jpg"
 """ ======================={BOT_NAME}====================== """
 
 
