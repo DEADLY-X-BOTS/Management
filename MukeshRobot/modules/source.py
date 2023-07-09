@@ -9,7 +9,7 @@ from telethon import __version__ as s
 from MukeshRobot import OWNER_ID, dispatcher
 from MukeshRobot import pbot as client
 
-Mukesh = "https://te.legra.ph/file/717366fdfcbebaeb0cf77.jpg"
+Mukesh = "https://graph.org/file/a2f3113de28c1faec0848.jpg"
 
 
 @client.on_message(filters.command(["repo", "source"]))
@@ -18,13 +18,13 @@ async def repo(client, message):
         photo=Mukesh,
         caption=f"""**ʜᴇʏ​ {message.from_user.mention()},\n\nɪ ᴀᴍ [{dispatcher.bot.first_name}](t.me/{dispatcher.bot.username})**
 
-**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [ᴅᴇᴠᴇʟᴏᴘᴇʀ](tg://user?id={OWNER_ID})
+**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [ᴅᴇᴠᴇʟᴏᴘᴇʀ](t.me/Satya_4834)
 **» ᴩʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
 **» ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}` 
 **» ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}` 
 **» ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{z}`
 
-**ɢʀᴏᴜᴘ ✘ ᴄᴏɴᴛʀᴏʟʟᴇʀ sᴏᴜʀᴄᴇ ɪs ɴᴏᴡ ᴩᴜʙʟɪᴄ ᴀɴᴅ ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ.**
+**ᴄᴀᴛᴛʏ ダ sᴏᴜʀᴄᴇ ɪs ɴᴏᴡ ᴩᴜʙʟɪᴄ ᴀɴᴅ ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ.**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -34,7 +34,7 @@ async def repo(client, message):
                     ),
                     InlineKeyboardButton(
                         "• ʀᴇᴘᴏ •",
-                        url="https://github.com/mrtosumemon/DoreamonRobot",
+                        url="https://github.com/",
                     ),
                 ]
             ]
